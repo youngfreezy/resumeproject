@@ -65,9 +65,9 @@ var education = {
 
     display: function(){
 
-
+ $("#education").append(HTMLschoolStart);
         for(var i in education.schools){
-            $("#education").append(HTMLschoolStart);
+           
 
     var formattedschoolName = HTMLschoolName.replace("%data%", education.schools[i].name);
     $(".education-entry:last").append(formattedschoolName);
@@ -83,7 +83,7 @@ var education = {
 
         }
    
-$("#education").append(HTMLonlineClasses);
+    $("#education").append(HTMLonlineClasses);
   
         for(var i in education.onlineCourses){
            
@@ -146,7 +146,7 @@ var bio = {
         "location": "Washington DC"
     },
     "welcomeMessage": "Ready to be a Full-Stack Javascript Ninja!",
-    "skills": ["Node.js", "Functional Programming", "MongoDB", "Express.js", "Angular.js", "Web Development", "RESTful APIs"],
+    "skills": ["➢Node.js", "➢Functional Programming", "➢MongoDB", "➢Express.js", "➢Angular.js", "➢Web Development", "➢RESTful APIs", "➢Python", "➢Ruby on Rails", "➢Test Driven Development", "➢Data Structures", "➢Algorithms"],
 
     "bioPic": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/069/30b/22a97f8.jpg",
     display: function(){

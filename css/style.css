@@ -79,6 +79,9 @@ a {
   display: block;
 }
 
+#online{
+  margin-top: 15px;
+}
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -89,6 +92,7 @@ a {
 #skillsH3 {
   color: #F5AE23;
   display: none;
+  padding-top: 1cm;
 }
 
 .orange {
@@ -102,6 +106,7 @@ a {
 .white-text {
   font-weight: bold;
   color: #FFFFFF;
+  line-height: 1.9em;
 }
 
 .gray {
@@ -166,6 +171,7 @@ span {
   padding: 5px;
 }
 
+
 #letsConnect {
   text-align: center;
 }
@@ -199,6 +205,14 @@ span {
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.indent{
+  margin-left: 1.65cm;
+}
+
+#classURL{
+  margin-bottom: 25px;
 }
 
 #mapDiv {
