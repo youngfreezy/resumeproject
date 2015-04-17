@@ -111,7 +111,7 @@ var work = {
     }, {
         "employer": "SEAF",
         "title": "Project Manager",
-        "location": "Washington, D.C.",
+        "location": "Washington, D.C. and Dhaka, Bangladesh",
         "dates": "October 2012-2013",
         "description": "Responsible for regulatory (SEC) Compliance for a global portfolio of appx $450 million and Project Manager for SEAF Bangladesh Agriventures, a SME(Small and Medium Enterprise) venture capital fund."
     }, {
@@ -155,8 +155,8 @@ var bio = {
         "twitter": "@FareezAhmed",
         "location": "Washington DC"
     },
-    "welcomeMessage": "Ready to be a Full-Stack Javascript Ninja!",
-    "skills": ["➢Node.js", "➢Functional Programming", "➢MongoDB", "➢Express.js", "➢Angular.js", "➢Web Development", "➢RESTful APIs", "➢Python", "➢Ruby on Rails", "➢Test Driven Development", "➢Data Structures", "➢Algorithms"],
+    "welcomeMessage": "Full-Stack Javascript, Python/Django, and Ruby on Rails.",
+    "skills": ["➢Node.js", "➢Functional Programming", "➢MongoDB", "➢Express.js", "➢Angular.js", "➢Web Development", "➢RESTful APIs", "➢Python", '➢Django', "➢Ruby on Rails", "➢Test Driven Development", "➢Data Structures", "➢Algorithms"],
 
     "bioPic": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/069/30b/22a97f8.jpg",
     display: function() {

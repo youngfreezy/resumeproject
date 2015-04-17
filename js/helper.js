@@ -106,10 +106,10 @@ function initializeMap() {
   var locations;
 
   var mapOptions = {
-    disableDefaultUI: true,
+    disableDefaultUI: false,
      zoomControl: true,
     scaleControl: false,
-    panControl: false
+    panControl: true
   };
 
   // This next line makes `map` a new Google Map JavaScript Object and attaches it to
