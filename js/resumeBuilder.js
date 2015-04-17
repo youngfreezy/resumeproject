@@ -260,17 +260,10 @@ var projects = {
         }
     }
 
-    //add some more in
+    
 };
 
 
 projects.display();
 
 $("#mapDiv").append(googleMap);
-// education["name"] = "Columbia University";
-// education["years"] = "2007-2009";
-// education["city"] = "New York, NY";
-
-// $("#main").append(work["position"]);
-
-// $("#main").append(education.name);
