@@ -266,6 +266,7 @@ var projects = {
 
 projects.display();
 
+$("#mapDiv").append(googleMap);
 // education["name"] = "Columbia University";
 // education["years"] = "2007-2009";
 // education["city"] = "New York, NY";

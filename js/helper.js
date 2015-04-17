@@ -106,7 +106,10 @@ function initializeMap() {
   var locations;
 
   var mapOptions = {
-    disableDefaultUI: true
+    disableDefaultUI: true,
+     zoomControl: true,
+    scaleControl: false,
+    panControl: false
   };
 
   // This next line makes `map` a new Google Map JavaScript Object and attaches it to
@@ -170,6 +173,12 @@ function initializeMap() {
 
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
+      if (markers.length>0) {
+        for (var i=0;i<markers.length;i++) {
+           markers[i].infowindow.close();
+        }        
+      }
+      infoWindow.open(map,marker);
       // your code goes here!
     });
 
